@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		C310783429FEECAA003B0340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310783329FEECAA003B0340 /* AppDelegate.swift */; };
 		C310783629FEECAA003B0340 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310783529FEECAA003B0340 /* SceneDelegate.swift */; };
-		C310783829FEECAA003B0340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310783729FEECAA003B0340 /* ViewController.swift */; };
 		C310783B29FEECAA003B0340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C310783929FEECAA003B0340 /* Main.storyboard */; };
 		C310783D29FEECAB003B0340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C310783C29FEECAB003B0340 /* Assets.xcassets */; };
 		C310784029FEECAB003B0340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C310783E29FEECAB003B0340 /* LaunchScreen.storyboard */; };
+		C310784929FEECF9003B0340 /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310784829FEECF9003B0340 /* AlbumList.swift */; };
+		C310784B29FEED4F003B0340 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310784A29FEED4F003B0340 /* Song.swift */; };
+		C310784E29FEED8F003B0340 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = C310784D29FEED8F003B0340 /* Data.json */; };
+		C310785129FEEDBA003B0340 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785029FEEDBA003B0340 /* TransitionManager.swift */; };
+		C310785529FEF01F003B0340 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785429FEF01F003B0340 /* ColorManager.swift */; };
+		C310785729FEF05F003B0340 /* UIColor+Hexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785629FEF05F003B0340 /* UIColor+Hexadecimal.swift */; };
+		C310785A29FEF087003B0340 /* CAGradientLayer+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785929FEF087003B0340 /* CAGradientLayer+Factory.swift */; };
+		C310785C29FEF090003B0340 /* UIButton+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785B29FEF090003B0340 /* UIButton+Factory.swift */; };
+		C310785E29FEF099003B0340 /* UILabel+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310785D29FEF099003B0340 /* UILabel+Factory.swift */; };
+		C310786629FEF16E003B0340 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310786529FEF16E003B0340 /* FontManager.swift */; };
+		C310786829FEF196003B0340 /* AlbumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310786729FEF196003B0340 /* AlbumProvider.swift */; };
+		C310786A29FEF1BA003B0340 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310786929FEF1BA003B0340 /* ReusableView.swift */; };
+		C310786E29FEF1F6003B0340 /* AlbumDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310786D29FEF1F6003B0340 /* AlbumDetailHeaderView.swift */; };
+		C310787129FEF453003B0340 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310787029FEF453003B0340 /* AlbumCollectionViewCell.swift */; };
+		C310787329FEF724003B0340 /* AlgumDetailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310787229FEF724003B0340 /* AlgumDetailCollectionCell.swift */; };
+		C310787529FEF860003B0340 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310787429FEF860003B0340 /* AlbumsViewController.swift */; };
+		C310787729FEF9A5003B0340 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310787629FEF9A5003B0340 /* AlbumDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C310783029FEECAA003B0340 /* Animated_-NavigationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated_-NavigationView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C310783329FEECAA003B0340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C310783529FEECAA003B0340 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C310783729FEECAA003B0340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C310783A29FEECAA003B0340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C310783C29FEECAB003B0340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C310783F29FEECAB003B0340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C310784129FEECAB003B0340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C310784829FEECF9003B0340 /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		C310784A29FEED4F003B0340 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C310784D29FEED8F003B0340 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		C310785029FEEDBA003B0340 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		C310785429FEF01F003B0340 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		C310785629FEF05F003B0340 /* UIColor+Hexadecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hexadecimal.swift"; sourceTree = "<group>"; };
+		C310785929FEF087003B0340 /* CAGradientLayer+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Factory.swift"; sourceTree = "<group>"; };
+		C310785B29FEF090003B0340 /* UIButton+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Factory.swift"; sourceTree = "<group>"; };
+		C310785D29FEF099003B0340 /* UILabel+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Factory.swift"; sourceTree = "<group>"; };
+		C310786129FEF15C003B0340 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Light.ttf"; path = "../../../../../../../Downloads/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		C310786229FEF15C003B0340 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../../../../../../../Downloads/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		C310786329FEF15C003B0340 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Bold.ttf"; path = "../../../../../../../Downloads/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		C310786429FEF15C003B0340 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Medium.ttf"; path = "../../../../../../../Downloads/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		C310786529FEF16E003B0340 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		C310786729FEF196003B0340 /* AlbumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProvider.swift; sourceTree = "<group>"; };
+		C310786929FEF1BA003B0340 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		C310786D29FEF1F6003B0340 /* AlbumDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailHeaderView.swift; sourceTree = "<group>"; };
+		C310787029FEF453003B0340 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		C310787229FEF724003B0340 /* AlgumDetailCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgumDetailCollectionCell.swift; sourceTree = "<group>"; };
+		C310787429FEF860003B0340 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		C310787629FEF9A5003B0340 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,123 @@
 		C310783229FEECAA003B0340 /* Animated_-NavigationView */ = {
 			isa = PBXGroup;
 			children = (
+				C310786C29FEF1D7003B0340 /* Views */,
+				C310786B29FEF1D1003B0340 /* ViewControllers */,
+				C310785229FEF00B003B0340 /* Utility */,
+				C310784F29FEEDAF003B0340 /* Transitions */,
+				C310784C29FEED7F003B0340 /* Resources */,
+				C310784729FEECEF003B0340 /* Model */,
 				C310783329FEECAA003B0340 /* AppDelegate.swift */,
 				C310783529FEECAA003B0340 /* SceneDelegate.swift */,
-				C310783729FEECAA003B0340 /* ViewController.swift */,
 				C310783929FEECAA003B0340 /* Main.storyboard */,
 				C310783C29FEECAB003B0340 /* Assets.xcassets */,
 				C310783E29FEECAB003B0340 /* LaunchScreen.storyboard */,
 				C310784129FEECAB003B0340 /* Info.plist */,
 			);
 			path = "Animated_-NavigationView";
+			sourceTree = "<group>";
+		};
+		C310784729FEECEF003B0340 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C310784829FEECF9003B0340 /* AlbumList.swift */,
+				C310784A29FEED4F003B0340 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C310784C29FEED7F003B0340 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C310784D29FEED8F003B0340 /* Data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C310784F29FEEDAF003B0340 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				C310785029FEEDBA003B0340 /* TransitionManager.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		C310785229FEF00B003B0340 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C310785F29FEF0FA003B0340 /* Fonts */,
+				C310785829FEF079003B0340 /* Factory */,
+				C310785329FEF013003B0340 /* Colors */,
+				C310786729FEF196003B0340 /* AlbumProvider.swift */,
+				C310786929FEF1BA003B0340 /* ReusableView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C310785329FEF013003B0340 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C310785429FEF01F003B0340 /* ColorManager.swift */,
+				C310785629FEF05F003B0340 /* UIColor+Hexadecimal.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		C310785829FEF079003B0340 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				C310785929FEF087003B0340 /* CAGradientLayer+Factory.swift */,
+				C310785B29FEF090003B0340 /* UIButton+Factory.swift */,
+				C310785D29FEF099003B0340 /* UILabel+Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		C310785F29FEF0FA003B0340 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C310786029FEF12B003B0340 /* Rubik */,
+				C310786529FEF16E003B0340 /* FontManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C310786029FEF12B003B0340 /* Rubik */ = {
+			isa = PBXGroup;
+			children = (
+				C310786329FEF15C003B0340 /* Rubik-Bold.ttf */,
+				C310786129FEF15C003B0340 /* Rubik-Light.ttf */,
+				C310786429FEF15C003B0340 /* Rubik-Medium.ttf */,
+				C310786229FEF15C003B0340 /* Rubik-Regular.ttf */,
+			);
+			path = Rubik;
+			sourceTree = "<group>";
+		};
+		C310786B29FEF1D1003B0340 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C310787429FEF860003B0340 /* AlbumsViewController.swift */,
+				C310787629FEF9A5003B0340 /* AlbumDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C310786C29FEF1D7003B0340 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C310786F29FEF447003B0340 /* Cells */,
+				C310786D29FEF1F6003B0340 /* AlbumDetailHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C310786F29FEF447003B0340 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C310787029FEF453003B0340 /* AlbumCollectionViewCell.swift */,
+				C310787229FEF724003B0340 /* AlgumDetailCollectionCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +272,7 @@
 				C310784029FEECAB003B0340 /* LaunchScreen.storyboard in Resources */,
 				C310783D29FEECAB003B0340 /* Assets.xcassets in Resources */,
 				C310783B29FEECAA003B0340 /* Main.storyboard in Resources */,
+				C310784E29FEED8F003B0340 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +283,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C310783829FEECAA003B0340 /* ViewController.swift in Sources */,
+				C310787129FEF453003B0340 /* AlbumCollectionViewCell.swift in Sources */,
+				C310786829FEF196003B0340 /* AlbumProvider.swift in Sources */,
+				C310787529FEF860003B0340 /* AlbumsViewController.swift in Sources */,
+				C310785A29FEF087003B0340 /* CAGradientLayer+Factory.swift in Sources */,
+				C310785529FEF01F003B0340 /* ColorManager.swift in Sources */,
+				C310785729FEF05F003B0340 /* UIColor+Hexadecimal.swift in Sources */,
+				C310785129FEEDBA003B0340 /* TransitionManager.swift in Sources */,
+				C310786A29FEF1BA003B0340 /* ReusableView.swift in Sources */,
 				C310783429FEECAA003B0340 /* AppDelegate.swift in Sources */,
 				C310783629FEECAA003B0340 /* SceneDelegate.swift in Sources */,
+				C310787329FEF724003B0340 /* AlgumDetailCollectionCell.swift in Sources */,
+				C310787729FEF9A5003B0340 /* AlbumDetailViewController.swift in Sources */,
+				C310784929FEECF9003B0340 /* AlbumList.swift in Sources */,
+				C310786E29FEF1F6003B0340 /* AlbumDetailHeaderView.swift in Sources */,
+				C310785C29FEF090003B0340 /* UIButton+Factory.swift in Sources */,
+				C310785E29FEF099003B0340 /* UILabel+Factory.swift in Sources */,
+				C310786629FEF16E003B0340 /* FontManager.swift in Sources */,
+				C310784B29FEED4F003B0340 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
